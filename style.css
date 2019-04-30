@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+container {
+  width: 100%;
+  max-width: 900px;
+  position: relative;
+}
+
+container img {
+  width: 100%;
+}
+
+.last{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: url(#shapes-clip-path);
+  -webkit-clip-path: url(#shapes-clip-path);
+}
+
+container svg {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
